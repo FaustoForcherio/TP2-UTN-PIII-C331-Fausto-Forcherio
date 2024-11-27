@@ -194,6 +194,7 @@ Por este motivo, vamos a valorar mucho este aspecto. Siéntase libre de utilizar
 
 
 **QUE HACE**
+
 Es una API que funciona como una colección de albumes de cantantes.
 Permite agregar, modificar o eliminar albumes, ademas de leer todos los albumes o leer uno por id,
 ordenar por creacion en la base de datos, filtrar por genero o filtrar por activo o inactivo.
@@ -202,6 +203,7 @@ Tambien permite agregar, modificar, eliminar, leer a todos o por id a los cantan
 Cada cantante puede tener varios albumes pero un album debe tener un solo cantante.
 
 **Requisitos:**
+
 - Tener mysqlWorkbench
 - Tener Xampp
 - Entorno de ejecución node.js
@@ -243,6 +245,7 @@ Para ver 1 solo cantante, borrar un cantante o actualizar un cantante poner (get
 http://localhost:3030/cantantes/*ID*
 
 **Ejemplos en formato JSON**
+
 Para crear o actualizar un cantante se tienen que insertar este JSON ya que el id del cantante, el createdAt y updateAt son automáticos:
   {
     "nombre": "Kendrick",
